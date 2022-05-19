@@ -83,7 +83,7 @@ iframe {
     line-height: 0.6rem;
     position: relative;
     bottom: 10px;
-    z-index: 0;
+    border-style: none;
 }
 
 
