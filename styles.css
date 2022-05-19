@@ -23,7 +23,8 @@ iframe {
 .navbar-icons {
     display: flex;
     background-color: #0F0E0E;
-
+    flex-wrap: nowrap;
+    z-index: 1;
 }
 
 .EALogo-simple {
@@ -75,6 +76,17 @@ iframe {
     margin-top: 70px;
 }
 
+.tog-button {
+    background: black;
+    color: white;
+    font-size: 3rem; 
+    line-height: 0.6rem;
+    position: relative;
+    bottom: 10px;
+    z-index: 0;
+}
+
+
 @media (max-width: 1028px) {
     .navbar {
         text-align: center;
@@ -89,4 +101,5 @@ iframe {
         margin: auto;
     }
 
+    
 }
