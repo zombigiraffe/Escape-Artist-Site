@@ -3,6 +3,11 @@ body {
     background-color: black;
 }
 
+h2 {
+    text-align: center;
+    color: white;
+}
+
 p {
     color: white;
     text-align: center;
@@ -16,7 +21,6 @@ iframe {
 .EA-header {
     width: 210px;
     height: 110px;
-    margin-left: 45px;
 }
 
 .navbar,
