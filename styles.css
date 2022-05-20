@@ -27,6 +27,10 @@ iframe {
     z-index: 1;
 }
 
+.navbar::marker {
+    color: #0F0E0E;
+}
+
 .EALogo-simple {
     width: 45px;
     height: 45px;
