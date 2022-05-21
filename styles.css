@@ -1,6 +1,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: black;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 h2 {
@@ -85,13 +88,14 @@ iframe {
 }
 
 .tog-button {
-    background: black;
+    background: none;
     color: white;
     font-size: 3rem; 
     line-height: 0.6rem;
     position: relative;
     bottom: 10px;
     border-style: none;
+    padding-bottom: 15px;
 }
 
 
@@ -109,5 +113,8 @@ iframe {
         margin: auto;
     }
 
+    body {
+        background-position: top;
+    }
     
 }
