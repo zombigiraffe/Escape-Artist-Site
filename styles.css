@@ -22,6 +22,8 @@ ul{
     color: white;
     text-align: center;
     list-style: none;
+    position: relative;
+    right: 20px;
 }
 
 p {
