@@ -11,6 +11,19 @@ h2 {
     color: white;
 }
 
+h4{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+ul{
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+    list-style: none;
+}
+
 p {
     color: white;
     text-align: center;
@@ -23,6 +36,11 @@ span {
 
 iframe {
     padding-bottom: 40px;
+}
+
+
+#timeUpdate {
+    font-size: 1rem;
 }
 
 .EA-header {
@@ -72,9 +90,16 @@ iframe {
     margin-top: 500px;
 }
 
+.promo {
+    width: 900px;
+    margin: 40px auto 40px;
+    display: block;
+}
+
 .album-art {
     width: 100%;
     height: 100%;
+    border-radius: 3px;
 }
 
 .album-section {
@@ -113,6 +138,16 @@ iframe {
     color: #dba706;
 }
 
+.outer-link {
+    color: #fde7a5;
+    transition: 400ms;
+}
+
+.outer-link:hover {
+    color: #dba706;
+    text-decoration: none;
+}
+
 @media (max-width: 1028px) {
     .navbar {
         text-align: center;
@@ -127,8 +162,24 @@ iframe {
         margin: auto;
     }
 
+    .mail-to{
+        font-size: 1.5rem;
+    }
+
+    .promo {
+        width: 100%;
+    }
+
+
     body {
         background-position: top;
     }
     
+    h4 {
+        font-size: 1rem;
+    }
+
+    br{
+        display: none;
+    }
 }
