@@ -36,10 +36,9 @@ span {
     font-size: 2rem;
 }
 
-iframe {
+.youtube-embed{
     padding-bottom: 40px;
 }
-
 
 #timeUpdate {
     font-size: 1rem;
