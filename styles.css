@@ -12,7 +12,7 @@ h2 {
 }
 
 h4{
-    margin-top: 30px;
+    margin: 30px 15px 0 ;
     text-align: center;
     color: white;
 }
@@ -93,7 +93,7 @@ span {
 
 .promo {
     width: 900px;
-    margin: 40px auto 40px;
+    margin: 0px auto 40px;
     display: block;
 }
 
